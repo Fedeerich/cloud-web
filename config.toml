@@ -3,3 +3,10 @@
     extended = true
     min = "0.147.1"
     max = "" 
+[params.pexels]
+  # Si tienes una API key, iría aquí, si no, revisa la documentación de tu tema
+  # apikey = "TU_API_KEY" 
+
+[params.pexels.queries]
+  # Añade al menos una consulta por defecto o deja esto vacío pero definido
+  default = "technology"
