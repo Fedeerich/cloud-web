@@ -1,116 +1,107 @@
 BasicInfo:
-  FirstName: Inês
-  LastName: Almeida
+  FirstName: Marcos
+  LastName: Góngora Carriedo
   Photo: img/avatar.jpg
   Contacts:
     - Icon: fas fa-phone
-      Info: +44 123 456 789
+      Info: "+34 603 55 96 33"
     - Icon: fas fa-envelope
-      Info: contact@ines-almeida.com
+      Info: 2024_marcos.gongora@iticbcn.cat
     - Icon: fas fa-globe
-      Info: ines-almeida.com
+      Info: cv.aws10.carriedo.cat
     - Icon: fas fa-map-marker-alt
-      Info: Portugal
+      Info: Barcelona, España
+    - Icon: fab fa-github
+      Info: github.com/Fedeerich
+    - Icon: fab fa-linkedin
+      Info: linkedin.com/in/marcos-gongora
 
-Profile: Deutscher Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+Profile: Técnico en Sistemas Microinformáticos y Redes y actual estudiante de desarrollo de aplicaciones web. Apasionado por la tecnología, la ciberseguridad y la programación. Persona proactiva, responsable y con gran capacidad para el trabajo en equipo.
 
 Experience:
-  - Employer: Super Coole Firma
-    Place: Oxford, UK
+  - Employer: Eixos Creativa
+    Place: Barcelona, ES
     Positions:
-      - Title: Software Entwicklerin
-        Date: Jan 2020 - Jetzt
+      - Title: Profesor de robotica
+        Date: Año 2024-2025
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'Django', 'OOP', 'Javascript', 'HTML', 'CSS', 'Agile']
-      - Title: Software Testerin
-        Date: Mar 2019 - Jan 2020
-        Details:
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'BDD', 'Selenium', 'OOP', 'Agile']
-  - Employer: Eine andere Supertolle Firma
-    Place: Lisbon, PT
+          - Programación de robots mediante Scratch.
+          - Programación de placas mbit.
+          - Enseñanza y Educación.
+        Badges: ['Educación', 'Scratch', 'mbit', 'robots', 'placas']
+  - Employer: ASPY Prevención (Practicas)
+    Place: Barcelona, ES
     Positions:
-      - Title: Flow Cytometry Resource Specialist
-        Date: Jan 2018 - Mar 2019
+      - Title: Becario de Sistemas Microinformáticos y Redes
+        Date: Año 2023-2024
         Details:
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-          - Sed viverra tellus in hac.
-          - Lorem ipsum dolor sit amet, consectetur adipiscing elit
-        Badges: ['Python', 'HTML', 'CSS', 'C#/Unity']
-  - Employer: Institute of Neural Engineering
-    Place: Graz, AT
+          - Gestión de equipos informáticos.
+          - Gestión de sistemas operativos.
+          - Reparación de equipos.
+          - Fomento del trabajo en equipo y la disciplina.
+        Badges: ['Gestión de Equipos', 'Comunicación', 'Servidores']
+  - Employer: Life Informática (Practicas)
+    Place: Barcelona, ES
     Positions:
-      - Title: Master's Thesis Research Intern
-        Date: Oct 2016 - Jun 2017
+      - Title: Marketing y SEO web
+        Date: Año 2023-2024
         Details:
-          - Arcu vitae elementum curabitur vitae nunc sed velit
-          - Viverra aliquet eget sit amet tellus cras adipiscing
-          - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
-          - Nisl tincidunt eget nullam non nisi est
-        Badges: ['Python', 'MATLAB', 'Data Processing', 'Paradigm Design']
+          - Posicionamiento Web.
+          - Desarollo web utlizando HTML, CSS y JS.
+          - Creación de páginas promocionales.
+          - Trabajo en equipo, y resoluciones rapidas.
+        Badges: ['HTML', 'CSS', 'JS', 'SEO', 'Marketing']
 
 Education:
-  - Course: BSc & MSc in Biomedical Engineering and Biophysics
-    Place: University of Lisbon
-    Date: Sep 2012 - Nov 2017
-    Details: Specialised in data analysis
+  - Course: CFGS Desarrollo de Aplicaciones Web
+    Place: Instituto Tecnológico de Barcelona
+    Date: Sep 2024 - Actualidad
+    Details: Especialización en desarrollo Full Stack.
+
+  - Course: CFGM Sistemas Microinformáticos y Redes
+    Place: Instituto Jesuitas del Clot
+    Date: Sep 2022 - Jun 2024
+    Details: Administración de servidores, redes, seguridad y ofimatica.
+
 
 Skills:
-  - Family: Programming
+  - Family: Programming & DB
     Items:
+      - Java
       - Python
-      - HTML (including Jinja)
-      - Javascript
-      - CSS
-      - SASS
-      - SQL
-      - C#
-      - Bash
-      - MATLAB
-  - Family: Frameworks
+      - HTML / CSS / JS
+      - FastAPI
+      - XML / JSON
+      - MySQL / Oracle database
+      - PostgreSQL / MongoSh
+  - Family: Systems & OS
     Items:
-      - Django
-      - Flask
-      - Hugo
-      - React
-  - Family: Developer Tools
+      - Linux (Ubuntu)
+      - Windows Server
+      - Active Directory
+      - DHCP / DNS / Gateway
+  - Family: Tools & Cloud
     Items:
       - Git
-      - Docker
-      - Jenkins
       - AWS
-  - Family: Misc
-    Items:
-      - Adobe Tools
-      - LaTeX
+      - VMware / VirtualBox
+      - Cisco Packet Tracer
 
 Languages:
-  - Name: Portuguese
-    Level: Native
-  - Name: English
-    Level: C2
-  - Name: Spanish
-    Level: B1
-  - Name: German
+  - Name: Español
+    Level: Nativo
+  - Name: Catalán
+    Level: Nativo
+  - Name: Inglés
     Level: B1
 
 Diplomas:
-  - ISTQB Tester Certification (2019)
-  - English Cambridge CAE (2009)
+  - "Protege tu negocio: Ciberseguridad en el Teletrabajo"
+  - "Competencias digitales para profesionales"
+  - "Cursos de Autoconfianza, Tolerancia a la frustración"
 
 Interests:
-  - Bouldering
-  - Cooking
-  - Windsurfing
-  - Bossa Nova
-  - Design
-  - Languages
+  - Tecnología
+  - Desarollo Personal
+  - Programación
+  - Progresión autonoma
