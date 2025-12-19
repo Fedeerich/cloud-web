@@ -74,12 +74,6 @@ Skills:
       - XML / JSON
       - MySQL / Oracle database
       - PostgreSQL / MongoSh
-  - Family: Systems & OS
-    Items:
-      - Linux (Ubuntu)
-      - Windows Server
-      - Active Directory
-      - DHCP / DNS / Gateway
   - Family: Tools & Cloud
     Items:
       - Git
