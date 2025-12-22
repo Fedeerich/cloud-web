@@ -32,7 +32,7 @@ Experience:
   - Employer: ASPY Prevención (Practicas)
     Place: Barcelona, ES
     Positions:
-      - Title: Becario de Sistemas Microinformáticos y Redes
+      - Title: Becario de Sistemas
         Date: Año 2023-2024
         Details:
           - Gestión de equipos informáticos.
@@ -69,16 +69,14 @@ Skills:
     Items:
       - Java
       - Python
-      - HTML / CSS / JS
-      - FastAPI
-      - XML / JSON
+      - HTML / CSS / JS / JSON
       - MySQL / Oracle database
       - PostgreSQL / MongoSh
   - Family: Tools & Cloud
     Items:
       - Git
       - AWS
-      - VMware / VirtualBox
+      - VirtualBox
       - Cisco Packet Tracer
 
 Languages:
@@ -90,8 +88,8 @@ Languages:
     Level: B1
 
 Diplomas:
-  - "Protege tu negocio: Ciberseguridad en el Teletrabajo"
-  - "Competencias digitales para profesionales"
+  - "Protege tu negocio: Ciberseguridad"
+  - "Competencias digitales"
   - "Cursos de Autoconfianza, Tolerancia a la frustración"
 
 Interests:
