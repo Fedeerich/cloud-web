@@ -50,29 +50,24 @@
     </div>
 </body>
 <script>
-    // La URL de tu API Gateway
-    const apiUrl = "https://2tsraker73.execute-api.us-east-1.amazonaws.com/functionGiveVisitors";
+    // URL de tu nueva API generada por Terraform
+    const apiUrl = "https://f279ext5t6.execute-api.us-east-1.amazonaws.com/count"; 
 
-    // Elemento donde quieres mostrar el número (asegúrate de tener un <span id="contador"></span> en tu HTML)
-    const counterElement = document.getElementById('contador');
-
-    async function updateCounter() {
-        try {
-            // Llamamos a la API
-            let response = await fetch(apiUrl);
-            let data = await response.json();
-            
-            // Mostramos el resultado en la consola y en la web
-            console.log(`Visitas: ${data.count}`);
-            if (counterElement) {
-                counterElement.innerText = data.count;
+    fetch(apiUrl)
+        .then(response => response.json())
+        .then(data => {
+            const contadorElement = document.getElementById('contador');
+            if (contadorElement) {
+                contadorElement.innerText = data.count;
             }
-        } catch (error) {
-            console.error("Error al obtener el contador:", error);
-        }
-    }
-
-    // Ejecutamos la función cuando carga la página
-    updateCounter();
+        })
+        .catch(error => {
+            console.error('Error al obtener visitas:', error);
+            // Opcional: poner un valor por defecto si falla
+            const contadorElement = document.getElementById('contador');
+            if (contadorElement) {
+                contadorElement.innerText = "Error"; 
+            }
+        });
 </script>
 </html>
